@@ -4,4 +4,4 @@ En este repositorio se encontrarán las evidencias para el Reto de Prompt Engine
 
 
 ## Ciclo 1
-Las evidencias de este ciclo se encuentran [aquí](Ciclo1/perfiles.md)
+Las evidencias de este ciclo se encuentran [aquí](Ciclo1/perfiles.md) y [aquí](Ciclo1/design.md)
