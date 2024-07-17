@@ -1,0 +1,133 @@
+Yo:
+Dame una lista relacionada de lo siguiente: 
+- Equipos de baseball de USA
+- Mascota del equipo
+
+ChatGPT: 
+Claro, aquí tienes una lista de algunos equipos de béisbol de la MLB en Estados Unidos junto con sus mascotas:
+
+Atlanta Braves
+
+Mascota: Blooper
+Baltimore Orioles
+
+Mascota: The Oriole Bird
+Boston Red Sox
+
+Mascota: Wally the Green Monster
+Chicago Cubs
+
+Mascota: Clark the Cub
+Chicago White Sox
+
+Mascota: Southpaw
+Cincinnati Reds
+
+Mascota: Mr. Red, Mr. Redlegs, Rosie Red, Gapper
+Cleveland Guardians
+
+Mascota: Slider
+Colorado Rockies
+
+Mascota: Dinger
+Detroit Tigers
+
+Mascota: Paws
+Houston Astros
+
+Mascota: Orbit
+Kansas City Royals
+
+Mascota: Sluggerrr
+Los Angeles Angels
+
+Mascota: Rally Monkey (no oficial)
+Los Angeles Dodgers
+
+Mascota: No tienen una mascota oficial
+Miami Marlins
+
+Mascota: Billy the Marlin
+Milwaukee Brewers
+
+Mascota: Bernie Brewer
+Minnesota Twins
+
+Mascota: T.C. Bear
+New York Mets
+
+Mascota: Mr. Met, Mrs. Met
+New York Yankees
+
+Mascota: No tienen una mascota oficial
+Oakland Athletics
+
+Mascota: Stomper
+Philadelphia Phillies
+
+Mascota: Phillie Phanatic
+Pittsburgh Pirates
+
+Mascota: Pirate Parrot
+San Diego Padres
+
+Mascota: Swinging Friar
+San Francisco Giants
+
+Mascota: Lou Seal
+Seattle Mariners
+
+Mascota: Mariner Moose
+St. Louis Cardinals
+
+Mascota: Fredbird
+Tampa Bay Rays
+
+Mascota: Raymond
+Texas Rangers
+
+Mascota: Rangers Captain
+Toronto Blue Jays
+
+Mascota: Ace
+Washington Nationals
+
+Mascota: Screech
+Espero que esta lista te sea útil.
+
+Yo:
+De la respuesta anterior ponlo en formato CSV con las columnas Equipo y Mascota
+
+Claro, aquí tienes la lista en formato CSV:
+
+Equipo,Mascota
+Atlanta Braves,Blooper
+Baltimore Orioles,The Oriole Bird
+Boston Red Sox,Wally the Green Monster
+Chicago Cubs,Clark the Cub
+Chicago White Sox,Southpaw
+Cincinnati Reds,Mr. Red, Mr. Redlegs, Rosie Red, Gapper
+Cleveland Guardians,Slider
+Colorado Rockies,Dinger
+Detroit Tigers,Paws
+Houston Astros,Orbit
+Kansas City Royals,Sluggerrr
+Los Angeles Angels,Rally Monkey (no oficial)
+Los Angeles Dodgers,No tienen una mascota oficial
+Miami Marlins,Billy the Marlin
+Milwaukee Brewers,Bernie Brewer
+Minnesota Twins,T.C. Bear
+New York Mets,Mr. Met, Mrs. Met
+New York Yankees,No tienen una mascota oficial
+Oakland Athletics,Stomper
+Philadelphia Phillies,Phillie Phanatic
+Pittsburgh Pirates,Pirate Parrot
+San Diego Padres,Swinging Friar
+San Francisco Giants,Lou Seal
+Seattle Mariners,Mariner Moose
+St. Louis Cardinals,Fredbird
+Tampa Bay Rays,Raymond
+Texas Rangers,Rangers Captain
+Toronto Blue Jays,Ace
+Washington Nationals,Screech
+
