@@ -1,0 +1,342 @@
+Yo:
+Actua como un gerente de marketing digital especializado en deportes con enfoque a baseball  y plantea el rediseño de la imagen de la marca del equipo de los Osos Grizzly de la ciudad de Montana.
+
+Para esto hay que
+    - generar la lista de acciones a realizar en cada mes para posisionar la nueva marca en los distintos medios para una audiencia tradicional y otra moderna, de acuerdo a los perfiles que estan entre tres commillas.
+    - genera una tabla para cada tipo de audiencia con la lista generada incluyendo el tipo de mensajes que se comunicaran con las audiencias que estan entre tres commillas
+
+ Para lo anterior hay que considerar lo siguiente:
+    - Los mensajes no deberan de tomar temas que el club no quiere mencionar, por ejemplo: compararse con otros deportes como el fútbol americano o que el equipo no ha sido campeón en años recientes
+    - Los mensajes siempre deben de ligar a la mascota del equipo "Monty el Grizzly"
+
+
+"""
+Audiencia de 18 a 34 años
+
+    Carlos, 22 años, estudiante universitario
+        Consumo de Medios: Redes sociales (Instagram, TikTok).
+        Interacción con el Equipo: Sigue al equipo en redes, comparte memes y videos destacados.
+        Asistencia a Juegos: Compra entradas electrónicas y prefiere experiencias interactivas.
+        Expectativas en el Estadio: Música en vivo, Wi-Fi gratuito, opciones de comida moderna.
+        Publicidad: Atraído por contenido creativo y campañas en redes sociales.
+
+    Laura, 28 años, profesional de marketing digital
+        Consumo de Medios: Streaming y plataformas como YouTube.
+        Interacción con el Equipo: Participa en concursos y promociones en línea.
+        Asistencia a Juegos: Busca experiencias VIP y eventos especiales.
+        Expectativas en el Estadio: Áreas de socialización, buenas opciones de comida y bebida.
+        Publicidad: Valora las colaboraciones con marcas populares.
+
+    Pedro, 25 años, desarrollador de software
+        Consumo de Medios: Reddit, Twitch, y podcasts.
+        Interacción con el Equipo: Disfruta de contenido detrás de cámaras y análisis técnicos.
+        Asistencia a Juegos: Compra entradas online, interesado en gamificación y realidad aumentada.
+        Expectativas en el Estadio: Zonas de tecnología avanzada, apps interactivas.
+        Publicidad: Prefiere anuncios inteligentes y personalización.
+
+    Ana, 30 años, emprendedora
+        Consumo de Medios: LinkedIn, blogs, y Twitter.
+        Interacción con el Equipo: Sigue las noticias del equipo, participa en debates en línea.
+        Asistencia a Juegos: Valoriza experiencias premium y networking.
+        Expectativas en el Estadio: Ambiente exclusivo, cómodos asientos, opciones gourmet.
+        Publicidad: Interesada en la responsabilidad social y campañas ecológicas.
+
+    Juan, 19 años, estudiante de secundaria
+        Consumo de Medios: TikTok, Snapchat.
+        Interacción con el Equipo: Usa emojis y stickers del equipo, sigue influencers fanáticos del béisbol.
+        Asistencia a Juegos: Compra boletos con descuentos para estudiantes.
+        Expectativas en el Estadio: Actividades lúdicas, interacciones con jugadores.
+        Publicidad: Responde a promociones divertidas y llamativas.
+
+Audiencia de 35 a 44 años
+
+    Sofía, 40 años, gerente de ventas
+        Consumo de Medios: Facebook, YouTube.
+        Interacción con el Equipo: Participa en foros y grupos de fans en Facebook.
+        Asistencia a Juegos: Prefiere entradas compradas con antelación y asientos cómodos.
+        Expectativas en el Estadio: Experiencia familiar, áreas de juego para niños.
+        Publicidad: Valora la publicidad enfocada en la familia y la comunidad.
+
+    Ricardo, 38 años, abogado
+        Consumo de Medios: Televisión y sitios web de noticias.
+        Interacción con el Equipo: Lee análisis y noticias detalladas sobre el equipo.
+        Asistencia a Juegos: Compra boletos premium, asiste con colegas.
+        Expectativas en el Estadio: Comodidades premium, servicio de calidad.
+        Publicidad: Prefiere anuncios informativos y promociones corporativas.
+
+    Lucía, 35 años, profesora
+        Consumo de Medios: Blogs educativos, redes sociales.
+        Interacción con el Equipo: Sigue páginas de fans, participa en encuestas.
+        Asistencia a Juegos: Compra entradas familiares, asiste con amigos y familiares.
+        Expectativas en el Estadio: Ambiente seguro, actividades educativas para niños.
+        Publicidad: Interesada en campañas educativas y de bienestar.
+
+    Fernando, 42 años, ingeniero
+        Consumo de Medios: Podcasts, revistas especializadas.
+        Interacción con el Equipo: Sigue estadísticas y análisis avanzados del equipo.
+        Asistencia a Juegos: Compra entradas con antelación, interesado en estadísticas en vivo.
+        Expectativas en el Estadio: Experiencia tecnológica, visualización de datos.
+        Publicidad: Prefiere anuncios técnicos y detallados.
+
+    María, 39 años, empresaria
+        Consumo de Medios: LinkedIn, prensa económica.
+        Interacción con el Equipo: Participa en eventos de networking del equipo.
+        Asistencia a Juegos: Asiste a eventos corporativos en el estadio.
+        Expectativas en el Estadio: Instalaciones VIP, servicio de catering.
+        Publicidad: Valora la publicidad corporativa y los patrocinios.
+
+Audiencia de 45 a 64 años
+
+    José, 50 años, director financiero
+        Consumo de Medios: Periódicos, televisión.
+        Interacción con el Equipo: Lee reportajes y análisis en medios tradicionales.
+        Asistencia a Juegos: Compra abonos de temporada, asiste con familia.
+        Expectativas en el Estadio: Comodidad, visibilidad del juego.
+        Publicidad: Prefiere anuncios formales y promociones de larga duración.
+
+    Elena, 55 años, doctora
+        Consumo de Medios: Radio, revistas de salud.
+        Interacción con el Equipo: Participa en actividades benéficas del equipo.
+        Asistencia a Juegos: Compra entradas para eventos especiales.
+        Expectativas en el Estadio: Espacios tranquilos, accesibilidad.
+        Publicidad: Interesada en campañas de salud y bienestar.
+
+    Roberto, 60 años, empresario retirado
+        Consumo de Medios: Televisión, radio.
+        Interacción con el Equipo: Sigue programas deportivos en televisión.
+        Asistencia a Juegos: Prefiere eventos exclusivos y experiencias VIP.
+        Expectativas en el Estadio: Servicios exclusivos, atención personalizada.
+        Publicidad: Valora anuncios enfocados en lujo y calidad.
+
+    Marta, 48 años, arquitecta
+        Consumo de Medios: Revistas de diseño, documentales.
+        Interacción con el Equipo: Apoya proyectos de infraestructura del equipo.
+        Asistencia a Juegos: Asiste con amigos, aprecia el diseño del estadio.
+        Expectativas en el Estadio: Espacios bien diseñados, confort.
+        Publicidad: Prefiere anuncios visualmente atractivos.
+
+    Carlos, 52 años, ingeniero civil
+        Consumo de Medios: Periódicos, televisión.
+        Interacción con el Equipo: Sigue estadísticas y reportes detallados.
+        Asistencia a Juegos: Asiste con familia, prefiere asientos cómodos.
+        Expectativas en el Estadio: Buenas vistas, estadística en vivo.
+        Publicidad: Prefiere publicidad técnica y analítica.
+
+Audiencia de 65 años en adelante
+
+    Alberto, 70 años, jubilado
+        Consumo de Medios: Televisión, periódicos.
+        Interacción con el Equipo: Sigue los partidos por TV, lee columnas deportivas.
+        Asistencia a Juegos: Asiste ocasionalmente, valora asientos cómodos.
+        Expectativas en el Estadio: Comodidad, accesibilidad.
+        Publicidad: Prefiere anuncios tradicionales y directos.
+
+    Carmen, 68 años, ama de casa
+        Consumo de Medios: Radio, televisión.
+        Interacción con el Equipo: Participa en eventos comunitarios organizados por el equipo.
+        Asistencia a Juegos: Asiste con nietos, busca actividades familiares.
+        Expectativas en el Estadio: Ambiente familiar, seguridad.
+        Publicidad: Interesada en publicidad familiar y de salud.
+
+    Luis, 75 años, ex-ingeniero
+        Consumo de Medios: Periódicos, programas de radio.
+        Interacción con el Equipo: Escucha programas deportivos en la radio.
+        Asistencia a Juegos: Prefiere ver los juegos por televisión.
+        Expectativas en el Estadio: Buenas instalaciones para la tercera edad.
+        Publicidad: Prefiere anuncios informativos y detallados.
+
+    Isabel, 67 años, jubilada
+        Consumo de Medios: Magazines y programas de televisión.
+        Interacción con el Equipo: Lee sobre el equipo en revistas.
+        Asistencia a Juegos: Asiste a juegos con su pareja, valora la comodidad.
+        Expectativas en el Estadio: Accesibilidad, buena visibilidad.
+        Publicidad: Prefiere anuncios enfocados en productos para la tercera edad.
+
+    Juan, 80 años, ex-profesor
+        Consumo de Medios: Televisión, periódicos.
+        Interacción con el Equipo: Sigue noticias y reportajes en la prensa.
+        Asistencia a Juegos: Asiste raramente, prefiere comodidad y fácil acceso.
+        Expectativas en el Estadio: Comodidad, facilidades para personas mayores.
+        Publicidad: Prefiere anuncios clásicos y formales.
+"""
+
+ChatGPT:
+
+Como gerente de marketing digital especializado en deportes con un enfoque en el béisbol, vamos a desarrollar un plan de acción mensual para el rediseño de la imagen de la marca del equipo de los Osos Grizzly de la ciudad de Montana, dirigido tanto a una audiencia tradicional como a una moderna. Nos aseguraremos de alinear todos los mensajes con la mascota del equipo, "Monty el Grizzly".
+
+### Plan de Acción Mensual
+
+#### Mes 1: Estrategia y Preparación
+- **Tradicional:**
+  - Realizar una encuesta para identificar las preferencias y expectativas de la audiencia.
+  - Desarrollar contenido promocional con Monty, destacando la historia y tradición del equipo.
+  - Planificar entrevistas en radio y televisión locales para hablar sobre el relanzamiento.
+- **Moderna:**
+  - Crear y optimizar perfiles de redes sociales (Instagram, TikTok, YouTube) de Monty.
+  - Lanzar un teaser en redes sociales anunciando el relanzamiento con contenido atractivo y hashtags.
+  - Colaborar con influencers jóvenes para generar expectativa.
+
+#### Mes 2: Lanzamiento de la Nueva Marca
+- **Tradicional:**
+  - Anunciar el relanzamiento a través de comunicados de prensa y en medios tradicionales.
+  - Organizar un evento de presentación en el estadio, invitando a la prensa y a la comunidad.
+  - Distribuir material promocional en periódicos y revistas locales.
+- **Moderna:**
+  - Publicar un video de lanzamiento en todas las plataformas de redes sociales, destacando a Monty.
+  - Realizar un live stream del evento de lanzamiento en YouTube y otras plataformas.
+  - Iniciar una campaña de publicidad en redes sociales con contenido interactivo.
+
+#### Mes 3: Compromiso Comunitario
+- **Tradicional:**
+  - Participar en eventos comunitarios y ferias locales con la presencia de Monty.
+  - Organizar visitas de Monty a escuelas y centros comunitarios.
+  - Publicar artículos en periódicos locales sobre las actividades comunitarias del equipo.
+- **Moderna:**
+  - Organizar un concurso en redes sociales donde los fans puedan ganar entradas y merchandise del equipo.
+  - Monty realiza Q&A en vivo en Instagram y TikTok, respondiendo preguntas de los fans.
+  - Publicar historias y posts de Monty participando en eventos comunitarios.
+
+#### Mes 4: Promoción de la Temporada
+- **Tradicional:**
+  - Distribuir folletos y carteles en puntos estratégicos de la ciudad promoviendo los próximos juegos.
+  - Publicar anuncios en radio y televisión, destacando la nueva imagen del equipo y a Monty.
+  - Enviar boletines informativos a los suscriptores con noticias y promociones.
+- **Moderna:**
+  - Lanzar una serie de videos detrás de cámaras en YouTube, mostrando la preparación del equipo y de Monty.
+  - Crear filtros y stickers personalizados para Instagram y TikTok.
+  - Colaborar con influencers para promocionar los juegos y ofrecer descuentos exclusivos a sus seguidores.
+
+#### Mes 5: Eventos Especiales y Experiencias VIP
+- **Tradicional:**
+  - Organizar noches temáticas y promociones especiales para los asistentes al estadio.
+  - Ofrecer experiencias VIP, como tours del estadio y meet-and-greets con Monty.
+  - Publicar reportajes en medios locales sobre las experiencias especiales.
+- **Moderna:**
+  - Promocionar eventos temáticos en redes sociales, usando stories y posts atractivos.
+  - Crear una aplicación móvil con funciones interactivas para mejorar la experiencia en el estadio.
+  - Realizar sorteos y promociones exclusivas en redes sociales para ganar experiencias VIP.
+
+#### Mes 6: Evaluación y Ajustes
+- **Tradicional:**
+  - Recopilar feedback de los fans a través de encuestas en el estadio y en línea.
+  - Analizar la efectividad de las campañas en medios tradicionales y ajustar según los resultados.
+  - Planificar una estrategia de fidelización a largo plazo.
+- **Moderna:**
+  - Analizar métricas de redes sociales y ajustar las estrategias de contenido y publicidad.
+  - Continuar colaborando con influencers y explorar nuevas oportunidades de marketing digital.
+  - Mantener la interacción constante con los fans a través de contenido fresco y relevante.
+
+### Tablas de Plan de Acción
+
+#### Audiencia Tradicional
+
+| Mes | Acciones | Tipo de Mensaje |
+|-----|----------|-----------------|
+| 1   | Encuestas, contenido promocional, entrevistas | Historia y tradición del equipo, presentación de Monty |
+| 2   | Comunicados de prensa, evento de lanzamiento, material promocional | Anuncio del relanzamiento, nueva imagen del equipo |
+| 3   | Eventos comunitarios, visitas a escuelas, artículos en periódicos | Compromiso comunitario, actividades de Monty |
+| 4   | Folletos, anuncios en radio y TV, boletines informativos | Promoción de la temporada, nueva imagen y Monty |
+| 5   | Noches temáticas, experiencias VIP, reportajes | Eventos especiales, experiencias únicas con Monty |
+| 6   | Feedback, análisis de campañas, estrategia de fidelización | Evaluación de resultados, ajuste de estrategias |
+
+#### Audiencia Moderna
+
+| Mes | Acciones | Tipo de Mensaje |
+|-----|----------|-----------------|
+| 1   | Perfiles de redes sociales, teaser en redes, colaboración con influencers | Expectativa y emoción por el relanzamiento, Monty como protagonista |
+| 2   | Video de lanzamiento, live stream, campaña en redes | Anuncio del relanzamiento, nueva imagen del equipo y Monty |
+| 3   | Concurso en redes, Q&A en vivo, publicaciones en redes | Compromiso con los fans, actividades de Monty |
+| 4   | Videos detrás de cámaras, filtros y stickers, colaboraciones | Promoción de la temporada, interactividad y tecnología con Monty |
+| 5   | Promoción de eventos temáticos, app móvil, sorteos en redes | Experiencias VIP, eventos especiales, exclusividad con Monty |
+| 6   | Análisis de métricas, colaboración continua, interacción constante | Evaluación de resultados, ajuste de estrategias, engagement continuo |
+
+---
+
+Este plan de acción mensual está diseñado para posicionar la nueva marca de los Osos Grizzly en los distintos medios, asegurando que todos los mensajes estén alineados con la imagen de Monty el Grizzly y eviten temas que el club no desea mencionar.
+
+Yo:
+De las tablas anteriores extiendela a un plazo de un año y agrega ejemplos de los tipos de mensajes
+
+ChatGPT:
+
+Claro, aquí está la extensión del plan de acción mensual para un año, incluyendo ejemplos de los tipos de mensajes para cada audiencia.
+
+### Audiencia Tradicional
+
+| Mes | Acciones | Tipo de Mensaje | Ejemplos de Mensajes |
+|-----|----------|-----------------|----------------------|
+| 1   | Encuestas, contenido promocional, entrevistas | Historia y tradición del equipo, presentación de Monty | "Monty te da la bienvenida a una nueva era de los Osos Grizzly. ¡Comparte tus recuerdos favoritos con nosotros!" |
+| 2   | Comunicados de prensa, evento de lanzamiento, material promocional | Anuncio del relanzamiento, nueva imagen del equipo | "Únete a Monty en el gran evento de lanzamiento y descubre la nueva imagen de los Osos Grizzly. ¡No te lo pierdas!" |
+| 3   | Eventos comunitarios, visitas a escuelas, artículos en periódicos | Compromiso comunitario, actividades de Monty | "Monty y los Osos Grizzly visitan tu escuela este mes. ¡Ven y conoce a nuestra querida mascota!" |
+| 4   | Folletos, anuncios en radio y TV, boletines informativos | Promoción de la temporada, nueva imagen y Monty | "La nueva temporada está aquí. Compra tus boletos y ven a disfrutar del juego con Monty y los Osos Grizzly." |
+| 5   | Noches temáticas, experiencias VIP, reportajes | Eventos especiales, experiencias únicas con Monty | "Noches temáticas en el estadio con Monty. ¡Trae a tu familia y vive una experiencia única!" |
+| 6   | Feedback, análisis de campañas, estrategia de fidelización | Evaluación de resultados, ajuste de estrategias | "Tu opinión importa. Cuéntanos tu experiencia y ayúdanos a mejorar." |
+| 7   | Campañas de verano, colaboración con patrocinadores, eventos al aire libre | Promoción de actividades de verano, monty en eventos locales | "Monty te invita a las actividades de verano de los Osos Grizzly. ¡Diversión asegurada para toda la familia!" |
+| 8   | Iniciativas educativas, promoción de regreso a clases | Educación y deporte, compromiso con la comunidad | "Monty y los Osos Grizzly apoyan la educación. Participa en nuestras iniciativas de regreso a clases." |
+| 9   | Celebración del aniversario del equipo, eventos históricos | Celebración de la historia del equipo, eventos conmemorativos | "Celebra con Monty el aniversario de los Osos Grizzly. Recordamos juntos nuestra historia." |
+| 10  | Promoción de juegos importantes, paquetes familiares | Promoción de partidos clave, beneficios familiares | "No te pierdas los partidos más importantes de la temporada. Monty tiene sorpresas para toda la familia." |
+| 11  | Preparación para la postemporada, promociones de fin de año | Expectativas para la postemporada, agradecimiento a los fans | "Gracias por tu apoyo este año. Monty y los Osos Grizzly te esperan en la postemporada." |
+| 12  | Evaluación anual, planificación de la próxima temporada | Resumen del año, expectativas para el próximo año | "Monty agradece tu lealtad. ¡Nos vemos el próximo año con más fuerza y emoción!" |
+
+### Audiencia Moderna
+
+| Mes | Acciones | Tipo de Mensaje | Ejemplos de Mensajes |
+|-----|----------|-----------------|----------------------|
+| 1   | Perfiles de redes sociales, teaser en redes, colaboración con influencers | Expectativa y emoción por el relanzamiento, Monty como protagonista | "Monty está preparando algo grande. ¡Sigue nuestras redes y no te pierdas el relanzamiento!" |
+| 2   | Video de lanzamiento, live stream, campaña en redes | Anuncio del relanzamiento, nueva imagen del equipo y Monty | "Monty está en vivo ahora mismo. ¡Únete al lanzamiento y descubre la nueva imagen de los Osos Grizzly!" |
+| 3   | Concurso en redes, Q&A en vivo, publicaciones en redes | Compromiso con los fans, actividades de Monty | "Participa en el concurso de Monty y gana boletos para el próximo juego. ¡Etiqueta a tus amigos!" |
+| 4   | Videos detrás de cámaras, filtros y stickers, colaboraciones | Promoción de la temporada, interactividad y tecnología con Monty | "Descubre el detrás de cámaras con Monty. Usa nuestros nuevos filtros en tus stories." |
+| 5   | Promoción de eventos temáticos, app móvil, sorteos en redes | Experiencias VIP, eventos especiales, exclusividad con Monty | "Monty te invita a una noche VIP. Descarga nuestra app y participa en el sorteo." |
+| 6   | Análisis de métricas, colaboración continua, interacción constante | Evaluación de resultados, ajuste de estrategias, engagement continuo | "Gracias por tu apoyo. Comparte tus sugerencias y ayúdanos a mejorar." |
+| 7   | Campañas de verano, colaboración con influencers, contenido estacional | Actividades de verano, Monty en eventos al aire libre | "Monty está disfrutando del verano. ¡Únete a nuestras actividades estivales y síguenos en Instagram!" |
+| 8   | Campaña de regreso a clases, contenido educativo en redes | Promoción educativa, compromiso con la comunidad | "Monty te desea un gran regreso a clases. Participa en nuestras iniciativas educativas." |
+| 9   | Celebración de aniversarios, eventos conmemorativos en redes | Historia del equipo, eventos conmemorativos con Monty | "Monty celebra el aniversario de los Osos Grizzly. Comparte tus recuerdos con #GrizzlyAnniversary." |
+| 10  | Promoción de partidos clave, eventos interactivos en redes | Promoción de juegos importantes, interacción y exclusividad | "Monty te necesita en los partidos más importantes. Compra tus boletos en línea y no te lo pierdas." |
+| 11  | Preparación para la postemporada, agradecimiento a los fans, encuestas en redes | Expectativas para la postemporada, agradecimiento, participación de los fans | "Monty agradece tu apoyo. ¿Qué te gustaría ver el próximo año? Participa en nuestra encuesta." |
+| 12  | Resumen del año, planificación para la próxima temporada, contenido especial de fin de año | Resumen del año, expectativas futuras, agradecimiento | "Monty y los Osos Grizzly te desean felices fiestas. Gracias por ser parte de nuestra familia." |
+
+Este plan de acción mensual extendido a un año garantiza que todos los mensajes y actividades están alineados con la imagen de Monty el Grizzly y evitan temas sensibles para el club, asegurando una comunicación efectiva y coherente con ambas audiencias.
+
+Yo:
+De las tablas generadas, conviertelas en formato csv
+
+ChatGPT
+Claro, aquí tienes las tablas convertidas en formato CSV:
+
+### Audiencia Tradicional
+
+```csv
+Mes,Acciones,Tipo de Mensaje,Ejemplos de Mensajes
+1,Encuestas, contenido promocional, entrevistas,Historia y tradición del equipo, presentación de Monty,"Monty te da la bienvenida a una nueva era de los Osos Grizzly. ¡Comparte tus recuerdos favoritos con nosotros!"
+2,Comunicados de prensa, evento de lanzamiento, material promocional,Anuncio del relanzamiento, nueva imagen del equipo,"Únete a Monty en el gran evento de lanzamiento y descubre la nueva imagen de los Osos Grizzly. ¡No te lo pierdas!"
+3,Eventos comunitarios, visitas a escuelas, artículos en periódicos,Compromiso comunitario, actividades de Monty,"Monty y los Osos Grizzly visitan tu escuela este mes. ¡Ven y conoce a nuestra querida mascota!"
+4,Folletos, anuncios en radio y TV, boletines informativos,Promoción de la temporada, nueva imagen y Monty,"La nueva temporada está aquí. Compra tus boletos y ven a disfrutar del juego con Monty y los Osos Grizzly."
+5,Noches temáticas, experiencias VIP, reportajes,Eventos especiales, experiencias únicas con Monty,"Noches temáticas en el estadio con Monty. ¡Trae a tu familia y vive una experiencia única!"
+6,Feedback, análisis de campañas, estrategia de fidelización,Evaluación de resultados, ajuste de estrategias,"Tu opinión importa. Cuéntanos tu experiencia y ayúdanos a mejorar."
+7,Campañas de verano, colaboración con patrocinadores, eventos al aire libre,Promoción de actividades de verano, Monty en eventos locales,"Monty te invita a las actividades de verano de los Osos Grizzly. ¡Diversión asegurada para toda la familia!"
+8,Iniciativas educativas, promoción de regreso a clases,Educación y deporte, compromiso con la comunidad,"Monty y los Osos Grizzly apoyan la educación. Participa en nuestras iniciativas de regreso a clases."
+9,Celebración del aniversario del equipo, eventos históricos,Celebración de la historia del equipo, eventos conmemorativos,"Celebra con Monty el aniversario de los Osos Grizzly. Recordamos juntos nuestra historia."
+10,Promoción de juegos importantes, paquetes familiares,Promoción de partidos clave, beneficios familiares,"No te pierdas los partidos más importantes de la temporada. Monty tiene sorpresas para toda la familia."
+11,Preparación para la postemporada, promociones de fin de año,Expectativas para la postemporada, agradecimiento a los fans,"Gracias por tu apoyo este año. Monty y los Osos Grizzly te esperan en la postemporada."
+12,Evaluación anual, planificación de la próxima temporada,Resumen del año, expectativas para el próximo año,"Monty agradece tu lealtad. ¡Nos vemos el próximo año con más fuerza y emoción!"
+```
+
+### Audiencia Moderna
+
+```csv
+Mes,Acciones,Tipo de Mensaje,Ejemplos de Mensajes
+1,Perfiles de redes sociales, teaser en redes, colaboración con influencers,Expectativa y emoción por el relanzamiento, Monty como protagonista,"Monty está preparando algo grande. ¡Sigue nuestras redes y no te pierdas el relanzamiento!"
+2,Video de lanzamiento, live stream, campaña en redes,Anuncio del relanzamiento, nueva imagen del equipo y Monty,"Monty está en vivo ahora mismo. ¡Únete al lanzamiento y descubre la nueva imagen de los Osos Grizzly!"
+3,Concurso en redes, Q&A en vivo, publicaciones en redes,Compromiso con los fans, actividades de Monty,"Participa en el concurso de Monty y gana boletos para el próximo juego. ¡Etiqueta a tus amigos!"
+4,Videos detrás de cámaras, filtros y stickers, colaboraciones,Promoción de la temporada, interactividad y tecnología con Monty,"Descubre el detrás de cámaras con Monty. Usa nuestros nuevos filtros en tus stories."
+5,Promoción de eventos temáticos, app móvil, sorteos en redes,Experiencias VIP, eventos especiales, exclusividad con Monty,"Monty te invita a una noche VIP. Descarga nuestra app y participa en el sorteo."
+6,Análisis de métricas, colaboración continua, interacción constante,Evaluación de resultados, ajuste de estrategias, engagement continuo,"Gracias por tu apoyo. Comparte tus sugerencias y ayúdanos a mejorar."
+7,Campañas de verano, colaboración con influencers, contenido estacional,Actividades de verano, Monty en eventos al aire libre,"Monty está disfrutando del verano. ¡Únete a nuestras actividades estivales y síguenos en Instagram!"
+8,Campaña de regreso a clases, contenido educativo en redes,Promoción educativa, compromiso con la comunidad,"Monty te desea un gran regreso a clases. Participa en nuestras iniciativas educativas."
+9,Celebración de aniversarios, eventos conmemorativos en redes,Historia del equipo, eventos conmemorativos con Monty,"Monty celebra el aniversario de los Osos Grizzly. Comparte tus recuerdos con #GrizzlyAnniversary."
+10,Promoción de partidos clave, eventos interactivos en redes,Promoción de juegos importantes, interacción y exclusividad,"Monty te necesita en los partidos más importantes. Compra tus boletos en línea y no te lo pierdas."
+11,Preparación para la postemporada, agradecimiento a los fans, encuestas en redes,Expectativas para la postemporada, agradecimiento, participación de los fans,"Monty agradece tu apoyo. ¿Qué te gustaría ver el próximo año? Participa en nuestra encuesta."
+12,Resumen del año, planificación para la próxima temporada, contenido especial de fin de año,Resumen del año, expectativas futuras, agradecimiento,"Monty y los Osos Grizzly te desean felices fiestas. Gracias por ser parte de nuestra familia."
+```
+
+Estos archivos CSV pueden ser utilizados para planificar y organizar las acciones de marketing mensuales, asegurando una comunicación efectiva y coherente con ambas audiencias a lo largo del año.
